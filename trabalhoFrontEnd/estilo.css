@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.tituloPrincipal {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+}
+
+.nomePrincipal {
+    color: white;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+nav { 
+    display: flex;
+    list-style: none;
+    width: 500px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+nav > a {
+    padding-top: 8px;
+    text-decoration: none;
+    width: 120px;
+    height: 35px;
+    color: red;
+    text-align: center;
+    vertical-align: middle;
+}
+
+nav > a:hover {
+    background-color: white;
+    color: brown;
+    font-size: 18px;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 0 auto;
+    width: 60%;
+    height: 600px;
+    background-color: darksalmon;
+}
+
+.dadosPessoais {
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.titulos {
+    margin-bottom: 10px;
+    color: rgb(211, 6, 6);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.destaque {
+    font-weight: bolder;
+}
+
+.descricao {
+    width: 300px;
+    text-align: justify;
+}
+
+.imagem {
+    width: 40%;
+    height: 60%;
+    background-color: green;
+}
+
+footer {
+    padding-top: 2px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    
+}
+.linkGithub {
+    text-decoration: none;
+    color: red;
+}
+
+.linkGithub:visited {
+    color: red;
+}
+
+.linkGithub:hover {
+    color: white;
+}
+

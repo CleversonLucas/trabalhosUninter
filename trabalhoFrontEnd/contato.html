@@ -7,20 +7,34 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <header>
-        <h1>Portifólio Pessoal</h1>
-        <h3>Cleverson José Lucas</h3>
+    <header> <!--cabeçalho fixo -->
+        <h1 class="tituloPrincipal">Portifólio Pessoal</h1>
+        <h3 class="nomePrincipal">Cleverson José Lucas</h3>
         <nav>
-            <ul>
-                <li><a href="index.html">Sobre mim</a></li>
-                <li><a href="qualificacoes.html">Qualificações</a></li>
-                <li><a href="portifolio.html">Portifólio</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
+            <a href="index.html">Sobre mim</a>
+            <a href="qualificacoes.html">Qualificações</a>
+            <a href="portifolio.html">Portifólio</a>
+            <a href="contato.html">Contato</a>
         </nav>
     </header>
 
+    <main>
+        <section>
+            <h1>Contato</h1>
+            <p>Preencha o formulário abaixo com suas informações e entrarei em contato o mais breve possível</p>
+        </section>
+        <form action="#" method="post">
+            <label for="nome">Nome Completo: </label>
+            <input type="text" name="nome" id="nome"><br>
+            <label for="telefone">Telefone: </label>
+            <input type="tel" name="telefone" id="telefone" placeholder="(xx)xxxxx-xxxx"><br>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="assunto">Assunto: </label>
+            <input type="text" name="assunto" id="assunto" size="200">
+        </form>
 
+    </main>
 
     <footer>
         <p>Site desenvolvido por <a href="https://github.com/CleversonLucas" target="_blank">Cleverson José Lucas</a></p>
