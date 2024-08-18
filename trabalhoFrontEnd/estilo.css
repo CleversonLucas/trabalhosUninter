@@ -90,7 +90,7 @@ main {
     height: 300px;
     margin-top: 20px;
     border: 2px solid red;
-    border-radius: 10px;
+    border-radius: 9px;
 }
 
 footer {
