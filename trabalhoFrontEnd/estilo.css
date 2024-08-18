@@ -59,12 +59,13 @@ main {
     flex-wrap: wrap;
     padding: 30px;
     margin: 0 auto;
-    width: 60%;
+    width: 800px;
     height: 600px;
     background-color: darksalmon;
 }
 
 .dadosPessoais {
+    width: 300px;
     line-height: 30px;
     margin-bottom: 40px;
 }
@@ -84,10 +85,12 @@ main {
     text-align: justify;
 }
 
-.imagem {
-    width: 40%;
-    height: 60%;
-    background-color: green;
+.imagem img {
+    width: 250px;
+    height: 300px;
+    margin-top: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
 }
 
 footer {
@@ -113,3 +116,81 @@ footer {
     color: white;
 }
 
+article {
+    width: 600px;
+    padding-bottom: 20px;
+}
+
+section > p {
+    width: 600px;
+    padding-bottom: 15px;
+}
+
+.imagensPort {
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+}
+
+.imagensPort img {
+    width: 280px;
+    height: 170px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.imagensPort img:hover {
+    border: 3px solid white;
+}
+
+.imagensPort > div {
+    margin: 20px;
+}
+
+.imagensPort > div > a {
+    text-decoration: none;
+}
+
+.imagensPort > div > a:visited {
+    color: black;
+}
+.imagensPort > div > a:hover {
+    color: white;
+}
+
+.imagensPort > div > a > p {
+    text-align: center;
+}
+
+form {
+    width: 700px;
+}
+
+.rotulo {
+    width: 200px;
+}
+
+.inputs {
+    width: 400px;
+}
+
+input { 
+    margin: 5px;
+}
+
+#assunto {
+    height: 100px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}

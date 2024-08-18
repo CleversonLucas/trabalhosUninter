@@ -20,18 +20,19 @@
 
     <main>
         <section>
-            <h1>Contato</h1>
+            <h1 class="titulos">Contato</h1>
             <p>Preencha o formulário abaixo com suas informações e entrarei em contato o mais breve possível</p>
         </section>
         <form action="#" method="post">
-            <label for="nome">Nome Completo: </label>
-            <input type="text" name="nome" id="nome"><br>
-            <label for="telefone">Telefone: </label>
-            <input type="tel" name="telefone" id="telefone" placeholder="(xx)xxxxx-xxxx"><br>
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email"><br>
-            <label for="assunto">Assunto: </label>
-            <input type="text" name="assunto" id="assunto" size="200">
+            <div class="rotulo"><label for="nome">Nome Completo: </label></div>
+            <input class="inputs" type="text" name="nome" id="nome"><br>
+            <div class="rotulo"><label for="telefone">Telefone: </label></div>
+            <input class="inputs" type="tel" name="telefone" id="telefone" placeholder="(xx)xxxxx-xxxx"><br>
+            <div class="rotulo"><label for="email">E-mail</label></div>
+            <input class="inputs" type="email" name="email" id="email"><br>
+            <div class="rotulo"><label for="assunto">Assunto: </label></div>
+            <textarea cols="55" rows="10" wrap="hard" name="assunto" id="assunto"></textarea>
+            <button>Enviar</button>
         </form>
 
     </main>
