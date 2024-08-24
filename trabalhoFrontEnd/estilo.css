@@ -103,6 +103,7 @@ footer {
     text-align: center;
     
 }
+
 .linkGithub {
     text-decoration: none;
     color: red;
@@ -118,7 +119,7 @@ footer {
 
 article {
     width: 600px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 section > p {
@@ -154,6 +155,7 @@ section > p {
 .imagensPort > div > a:visited {
     color: black;
 }
+
 .imagensPort > div > a:hover {
     color: white;
 }
